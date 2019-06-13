@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="395389075445447">
+            <conditions>
+                <condition id="2" name="Key is down" sid="858709149480592" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="336498590994918" type="Roy">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="167341024190858">
+            <conditions>
+                <condition id="2" name="Key is down" sid="447272473509909" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Set mirrored" sid="387476521108113" type="Roy">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="751523957165219">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="225368139481876" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Play" sid="926309562694101" type="Audio">
+                    <param id="0" name="Audio file">bgm</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">-10</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
