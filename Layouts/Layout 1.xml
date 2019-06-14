@@ -116,7 +116,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Roy" uid="1">
+                <instance type="Roy" uid="6">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -142,14 +142,14 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>175</x>
-                        <y>362</y>
+                        <x>305</x>
+                        <y>307.189880371</y>
                         <z>0</z>
-                        <width>77</width>
-                        <height>140</height>
+                        <width>62</width>
+                        <height>109</height>
                         <depth>0</depth>
-                        <hotspotX>0.501305461</hotspotX>
-                        <hotspotY>0.50077039</hotspotY>
+                        <hotspotX>0.5</hotspotX>
+                        <hotspotY>0.506329119</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>

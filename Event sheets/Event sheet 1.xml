@@ -10,7 +10,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="7" name="Set mirrored" sid="336498590994918" type="Roy">
+                <action id="7" name="Set mirrored" sid="300298663706965" type="Roy">
                     <param id="0" name="State">1</param>
                 </action>
             </actions>
@@ -22,7 +22,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="7" name="Set mirrored" sid="387476521108113" type="Roy">
+                <action id="7" name="Set mirrored" sid="388392604574289" type="Roy">
                     <param id="0" name="State">0</param>
                 </action>
             </actions>

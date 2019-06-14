@@ -67,7 +67,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Roy" sid="336019595719321">
+        <object-type name="RoyBuged" sid="336019595719321">
             <plugin id="Sprite" />
             <behaviors>
                 <behavior-type name="Platform" sid="485825294620397">
@@ -75,8 +75,21 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="864116700610181" speed="5">
-                    <frame duration="1" hotspotX="0.501305" hotspotY="0.50077" original-source="C:\Users\Admin\Desktop\RoyGame\Images\Idle_1.png" />
+                <animation framecount="3" loop="1" name="Idle" pingpong="0" repeatcount="1" repeatto="0" sid="864116700610181" speed="8">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506329" original-source="C:\Users\Admin\Desktop\RoyGame\Media\Images\Roy\idle_0.png">
+                        <collision-poly>
+                            <point x="0.204545" y="0.113924" />
+                            <point x="0.5" y="0.0126582" />
+                            <point x="0.795455" y="0.113924" />
+                            <point x="0.909091" y="0.493671" />
+                            <point x="0.659091" y="0.810127" />
+                            <point x="0.5" y="0.708861" />
+                            <point x="0.363636" y="0.797468" />
+                            <point x="0.136364" y="0.493671" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506329" original-source="C:\Users\Admin\Desktop\RoyGame\Media\Images\Roy\idle_1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506329" original-source="C:\Users\Admin\Desktop\RoyGame\Media\Images\Roy\idle_2.png" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -98,6 +111,21 @@
         </object-type>
         <object-type name="Audio" sid="413758304045736">
             <plugin id="Audio" />
+        </object-type>
+        <object-type name="Roy" sid="353108699483065">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="648913899283280">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="848115568264912" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506329" original-source="C:\Users\Admin\Desktop\RoyGame\Media\Images\Roy\idle_0.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506329" original-source="C:\Users\Admin\Desktop\RoyGame\Media\Images\Roy\idle_1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506329" original-source="C:\Users\Admin\Desktop\RoyGame\Media\Images\Roy\idle_2.png" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
