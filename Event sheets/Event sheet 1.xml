@@ -40,5 +40,34 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="393922808883291">
+            <conditions>
+                <condition id="2" name="Key is down" sid="683029722747896" type="Keyboard">
+                    <param id="0" name="Key">69</param>
+                </condition>
+                <condition id="2" name="Key is down" sid="997542567812267" type="Keyboard">
+                    <param id="0" name="Key">38</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="589431550165153" type="Roy">
+                    <param id="0" name="Animation">&quot;Fire_up&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="778534416959203">
+            <conditions>
+                <condition id="4" name="On finished" sid="180692753648382" type="Roy">
+                    <param id="0" name="Animation">&quot;Fire_up&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="459912878858826" type="Roy">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
