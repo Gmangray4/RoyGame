@@ -17,6 +17,7 @@
     <used-behaviors>
         <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
         <behavior author="Scirra" id="jumpthru" version="1">Jump-thru</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
         <behavior author="Scirra" id="solid" version="1">Solid</behavior>
     </used-behaviors>
     <used-effects />
@@ -118,6 +119,9 @@
                 <behavior-type name="Platform" sid="648913899283280">
                     <behavior id="Platform" />
                 </behavior-type>
+                <behavior-type name="ScrollTo" sid="550326950713739">
+                    <behavior id="scrollto" />
+                </behavior-type>
             </behaviors>
             <animation-folder>
                 <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="848115568264912" speed="5">
@@ -132,6 +136,36 @@
                     <frame duration="1" hotspotX="0.5" hotspotY="0.506329" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.506329" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.506329" />
+                </animation>
+                <animation framecount="4" loop="0" name="Fire" pingpong="0" repeatcount="1" repeatto="0" sid="738295157052320" speed="10">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506329" original-source="C:\Users\Admin\Desktop\RoyGame\Media\Images\Roy\idle_0.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506329" original-source="C:\Users\Admin\Desktop\RoyGame\Media\Images\Roy\idle_1.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506329" original-source="C:\Users\Admin\Desktop\RoyGame\Media\Images\Roy\idle_2.png" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506329" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Cam" sid="106726350977911">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="956518868096998" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Lizaer" sid="936992659470868">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="478870095475402" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RoyMouth" sid="631196790030074">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="647582611711020" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
