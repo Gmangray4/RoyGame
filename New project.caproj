@@ -8,7 +8,7 @@
     <author-website>http://</author-website>
     <app-id>com.mycompany.myapp</app-id>
     <unique-id>16rgzlxily8wd</unique-id>
-    <saved-with-version>26500</saved-with-version>
+    <saved-with-version>27700</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
@@ -124,12 +124,12 @@
                 </behavior-type>
             </behaviors>
             <animation-folder>
-                <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="848115568264912" speed="5">
+                <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="848115568264912" speed="10">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.506329" original-source="C:\Users\Admin\Desktop\RoyGame\Media\Images\Roy\idle_0.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.506329" original-source="C:\Users\Admin\Desktop\RoyGame\Media\Images\Roy\idle_1.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.506329" original-source="C:\Users\Admin\Desktop\RoyGame\Media\Images\Roy\idle_2.png" />
                 </animation>
-                <animation framecount="6" loop="0" name="Fire_up" pingpong="0" repeatcount="1" repeatto="0" sid="932575774698772" speed="10">
+                <animation framecount="6" loop="0" name="Fire_up" pingpong="0" repeatcount="1" repeatto="0" sid="932575774698772" speed="15">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.506329" original-source="C:\Users\Admin\Desktop\RoyGame\Media\Images\Roy\Roy_Pixel_Fire.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.506329" original-source="C:\Users\Admin\Desktop\RoyGame\Media\Images\Roy\Roy_Pixel_Fire_45.png" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.506329" original-source="C:\Users\Admin\Desktop\RoyGame\Media\Images\Roy\Roy_Pixel_Fire_Up.png" />

@@ -20,10 +20,6 @@
                     <param id="0" name="Variable">RoyMouthPosX</param>
                     <param id="1" name="Value">0</param>
                 </action>
-                <action id="-9" name="Set value" sid="622420997951477" type="System">
-                    <param id="0" name="Variable">LazerAngle</param>
-                    <param id="1" name="Value">0</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="167341024190858">
@@ -40,10 +36,6 @@
                     <param id="0" name="Variable">RoyMouthPosX</param>
                     <param id="1" name="Value">-4</param>
                 </action>
-                <action id="-9" name="Set value" sid="473178654952459" type="System">
-                    <param id="0" name="Variable">LazerAngle</param>
-                    <param id="1" name="Value">180</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="751523957165219">
@@ -56,6 +48,19 @@
                     <param id="2" name="Loop">0</param>
                     <param id="3" name="Volume">-10</param>
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="581561440133639">
+            <conditions>
+                <condition id="2" name="Key is down" sid="138882710023331" type="Keyboard">
+                    <param id="0" name="Key">69</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="857142361873875" type="Roy">
+                    <param id="0" name="Animation">&quot;Fire&quot;</param>
+                    <param id="1" name="From">1</param>
                 </action>
             </actions>
         </event-block>
@@ -73,10 +78,6 @@
                     <param id="0" name="Animation">&quot;Fire_up&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
-                <action id="-9" name="Set value" sid="213478409287506" type="System">
-                    <param id="0" name="Variable">LazerAngle</param>
-                    <param id="1" name="Value">270</param>
-                </action>
             </actions>
         </event-block>
         <event-block sid="188187846443058">
@@ -89,10 +90,6 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Set value" sid="821774471767557" type="System">
-                    <param id="0" name="Variable">LazerAngle</param>
-                    <param id="1" name="Value">0</param>
-                </action>
                 <action id="4" name="Set animation" sid="275571330584161" type="Roy">
                     <param id="0" name="Animation">&quot;Fire&quot;</param>
                     <param id="1" name="From">1</param>
@@ -109,31 +106,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="-9" name="Set value" sid="129180680396168" type="System">
-                    <param id="0" name="Variable">LazerAngle</param>
-                    <param id="1" name="Value">180</param>
-                </action>
                 <action id="4" name="Set animation" sid="474041800921841" type="Roy">
-                    <param id="0" name="Animation">&quot;Fire&quot;</param>
-                    <param id="1" name="From">1</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block sid="430608932025208">
-            <conditions>
-                <condition id="2" name="Key is down" sid="578145471607074" type="Keyboard">
-                    <param id="0" name="Key">69</param>
-                </condition>
-                <condition id="2" name="Key is down" sid="183251238769799" type="Keyboard">
-                    <param id="0" name="Key">40</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="-9" name="Set value" sid="127508489691938" type="System">
-                    <param id="0" name="Variable">LazerAngle</param>
-                    <param id="1" name="Value">90</param>
-                </action>
-                <action id="4" name="Set animation" sid="577863267530585" type="Roy">
                     <param id="0" name="Animation">&quot;Fire&quot;</param>
                     <param id="1" name="From">1</param>
                 </action>
@@ -175,19 +148,20 @@
         </event-block>
         <event-block sid="467814892910923">
             <conditions>
-                <condition id="2" name="Is playing" sid="953878995641293" type="Roy">
-                    <param id="0" name="Animation">&quot;Fire_up&quot;</param>
+                <condition id="2" name="Is playing" sid="526542178015525" type="Roy">
+                    <param id="0" name="Animation">&quot;Fire&quot;</param>
                 </condition>
                 <condition id="3" name="Compare frame" sid="631486609701489" type="Roy">
                     <param id="0" name="Comparison">0</param>
                     <param id="1" name="Number">2</param>
                 </condition>
                 <condition id="-4" name="Trigger once while true" sid="221638233532843" type="System" />
+                <condition id="7" name="Is mirrored" sid="787929690712650" type="Roy" />
             </conditions>
             <actions>
-                <action id="-9" name="Set value" sid="174555013690250" type="System">
-                    <param id="0" name="Variable">RoyMouthPosY</param>
-                    <param id="1" name="Value">-20</param>
+                <action id="-9" name="Set value" sid="473178654952459" type="System">
+                    <param id="0" name="Variable">LazerAngle</param>
+                    <param id="1" name="Value">180</param>
                 </action>
                 <action id="0" name="Spawn another object" sid="454922039695211" type="RoyMouth">
                     <param id="0" name="Object">Lizaer</param>
@@ -196,10 +170,34 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="383028507801353">
+        <event-block sid="835983798185151">
             <conditions>
                 <condition id="2" name="Is playing" sid="194776864794724" type="Roy">
                     <param id="0" name="Animation">&quot;Fire&quot;</param>
+                </condition>
+                <condition id="3" name="Compare frame" sid="300952034922552" type="Roy">
+                    <param id="0" name="Comparison">0</param>
+                    <param id="1" name="Number">2</param>
+                </condition>
+                <condition id="-4" name="Trigger once while true" sid="843961009454976" type="System" />
+                <condition id="7" inverted="1" name="Is mirrored" sid="621552033941862" type="Roy" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="622420997951477" type="System">
+                    <param id="0" name="Variable">LazerAngle</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="0" name="Spawn another object" sid="361716681564881" type="RoyMouth">
+                    <param id="0" name="Object">Lizaer</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="Image point">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="383028507801353">
+            <conditions>
+                <condition id="2" name="Is playing" sid="889434473835161" type="Roy">
+                    <param id="0" name="Animation">&quot;Fire_up&quot;</param>
                 </condition>
                 <condition id="3" name="Compare frame" sid="574086761455622" type="Roy">
                     <param id="0" name="Comparison">0</param>
@@ -208,6 +206,14 @@
                 <condition id="-4" name="Trigger once while true" sid="940633141632505" type="System" />
             </conditions>
             <actions>
+                <action id="-9" name="Set value" sid="766197341843020" type="System">
+                    <param id="0" name="Variable">RoyMouthPosY</param>
+                    <param id="1" name="Value">-20</param>
+                </action>
+                <action id="-9" name="Set value" sid="213478409287506" type="System">
+                    <param id="0" name="Variable">LazerAngle</param>
+                    <param id="1" name="Value">270</param>
+                </action>
                 <action id="0" name="Spawn another object" sid="304606218917853" type="RoyMouth">
                     <param id="0" name="Object">Lizaer</param>
                     <param id="1" name="Layer">0</param>
